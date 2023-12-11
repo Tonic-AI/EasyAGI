@@ -91,23 +91,22 @@ then edit the OAI_CONFIG_LIST file or on the command line:
 nano OAI_CONFIG_LIST.json
 ```
 
-Copy the `.env.example` file to a new file named `.env` and update it with your actual configuration:
+enter your keys into the space provided, eg: 
 
-```bash
-cp .env.example .env
-nano .env
+```json
+   {
+        "model": "gpt-4",
+        "api_key": "<your OpenAI API key here>"
+    },
+    {
+        "model": "gpt-4",
+        "api_key": "<your Azure OpenAI API key here>",
+        "api_base": "<your Azure OpenAI API base here>",
+        "api_type": "azure",
+        "api_version": "2023-07-01-preview"
+    }
 ```
-
-Fill in the `GORILLA_CLI_PATH`, `OPENAI_API_KEY`, and `AZURE_OPENAI_API_KEY` with the appropriate values. For example:
-
-```
-GORILLA_CLI_PATH=/usr/local/bin/gorilla-cli
-OPENAI_API_KEY=your-openai-api-key
-AZURE_OPENAI_API_KEY=your-azure-openai-api-key
-AZURE_OPENAI_API_BASE=your-azure-openai-api-base
-```
-
-Make sure to replace `/usr/local/bin/gorilla-cli` with the actual path to your `gorilla-cli` executable, and the placeholder keys with your actual API keys.
+with your keys or Azure OpenAI deployments
 
 on the command line , press:
 
