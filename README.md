@@ -16,8 +16,6 @@ license: mit
 
 - sign up and get an api key for open ai
 - sign up and set up a project in [zilliz cloud](https://cloud.zilliz.com/)
-
-=======
 - sign up and get an api key for Bing! Search
 
 ## Zilliz Plugin
@@ -65,10 +63,7 @@ This plugin allows users to plug in their existing zilliz account to a multiagen
 1. visit this weblink [https://aka.ms/bingapisignup](https://portal.azure.com/#create/microsoft.bingsearch)
 2. open your portal : [https://portal.azure.com/#create/microsoft.bingsearch](https://portal.azure.com/#create/microsoft.bingsearch) 
 
-# **Check the plugins folder for new Semantic Kernel Plugins**
->>>>>>> 8ff1c563cb0c715e932c267d2fe967f50b8aee0d
-
-## Use and Install
+# Use and Install
 
 on the command line :
 
